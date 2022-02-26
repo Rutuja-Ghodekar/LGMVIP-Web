@@ -1,0 +1,109 @@
+body {
+	background-color: #140a04;
+  
+}
+
+.screen{
+    display: inline-block;
+	margin: 5px;
+	width: 94%;
+	height: 60px;
+	font-size: 25px;
+    font-weight: bold;
+    background-color:white;
+	
+	border: 3px solid black;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 80px;
+	height:80px;
+    outline: none;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 50px;
+	background-color: rgb(253, 125, 125);
+  
+}
+
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 4px 4px auto;
+	width: 80px;
+	height: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 50px;
+	outline: none;
+	background-color: rgb(236, 248, 124);
+    
+	
+  
+}
+
+.button3{
+	background-color: rgb(250, 126, 202);
+	cursor: pointer;
+	display: inline-block;
+	margin: 4px 4px auto;
+	width: 80px;
+	height: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 50px;
+	outline: none;
+}
+
+.button:active, .allclearButton:active,.equalButton:active,.button2:active,.button3:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover,.button2:active,.button3:active {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	
+}
+
+.allclearButton {
+  border-radius: 10px;
+	color: rgb(19, 17, 17);
+	font-weight: bold;
+    background-color: rgb(128, 248, 128);
+	width: 170px;
+	height: 70px;
+	background-color: #FFBA75;
+	font-size: 25px;
+	
+
+}
+
+h1{
+	color:#FFF;
+    text-decoration: underline;
+	font-size: 52px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+.square{
+		background: rgb(148, 212, 255);
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%);
+        border: 5px solid black;
+        height:70%;
+        width:25%;
+        padding-left:10px;
+		
+}
